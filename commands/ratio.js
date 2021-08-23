@@ -1,3 +1,5 @@
+const { MessageEmbed, Channel } = require("discord.js")
+
 module.exports = {
     name: "ratio",
     description: "0-100 rating of your retardation",
@@ -29,5 +31,6 @@ module.exports = {
             else{
                 embed.setFooter("This is " + message.author.tag + "'s retard rate.")
             }
+        message.channel.send(embed);
     }
-}
+}   
