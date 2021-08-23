@@ -45,6 +45,10 @@ client.on("message", message =>{
     else if(command === "help" || command === "commands"){
         client.commands.get("help").execute(message,args);
     }
+
+    else if(command === "ratio" || command === "retard"){
+        client.commands.get("ratio").execute(message,args);
+    }
 });
 
 client.once("ready", () => {
