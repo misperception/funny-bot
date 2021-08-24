@@ -14,6 +14,7 @@ module.exports = {
                 {name: "`bomb`", value: "Returns a zip bomb", inline: true},
                 {name: "`crash`", value: "Mention someone and the bot sends them a crash gif", inline: true},
                 {name: "`spam`", value: "Mention someone, and set a message and a number, then the bot will spam the one mentioned"},
+                {name: "`ratio`", value: "Measures your retardness"},
             )
             .setFooter("Created by a bored skid during class lmao");
         message.channel.send(embed)
